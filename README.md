@@ -49,3 +49,9 @@ npm run build
 
 ### Deployment
 The site is deployed to GitHub Pages using Travis. Changes to the site should be done in the Hugo project (`hugo-site` branch). Never commit to `master`, that branch will be updated by Travis whenever a new build is done.
+
+
+### Adding content to header and footer.
+
+To personalize your site, change the variables in the `config.yml` file. 
+For more information about Hugo, go to [gohugo.io](https://gohugo.io).
