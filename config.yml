@@ -1,0 +1,25 @@
+baseURL: "https://compbiocore.github.io/"
+languageCode: "en-us"
+title: "Organization Name"
+googleAnalytics: UA-115983496-2
+# Site params
+params:
+    description: "Some description goes here."
+    email: contact@brown.edu
+    copyright: Organization/Lab - Brown University
+    organization: Organization/Lab Name
+    address: Organization Address
+    brown_url: "https://www.brown.edu"
+    site_url: "http://organization.brown.edu"
+    theme_color: "#FFC72C"
+    text_color: dark
+
+# Menu items
+menu:
+  main:
+  - name: About
+    weight: 1
+    url: /about
+  - name: Contact
+    weight: 2
+    url: /contact

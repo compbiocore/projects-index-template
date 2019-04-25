@@ -1,0 +1,10 @@
+<div class="title-container text-{{.Site.Params.text_color}}" style="background-color: {{.Site.Params.theme_color}}">
+    <div class="title-logo">
+        <a href="{{.Site.Params.brown_url}}">{{ readFile "/static/svg/brown-large.svg" | safeHTML }}</a>
+    </div>
+    <div class="title-group text-{{.Site.Params.text_color}}">
+        <h1 class="title">{{ .Site.Params.organization }}</h1>
+        <hr></hr>
+        <p class="description text-{{.Site.Params.text_color}}">{{ .Site.Params.description }}</p>
+    </div>
+</div>
